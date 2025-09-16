@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv(r"C:/Users/Abdo/Desktop/Projects/Netflix_Analysis_Project/Netflix.csv")
+df = pd.read_csv(r"D:/Users/yuvraj/Projects/visualization/Netflix.csv")
 df.head(3)
 df.sample(10)
 # Replace blank countries with the mode (most common) country
